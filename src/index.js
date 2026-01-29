@@ -1,5 +1,5 @@
 // Import CSS
-import './styles.css';
+import './css/styles.css';
 
 // Import modules
 import { loadFromLocalStorage } from './modules/storage.js';
