@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   background: #f5f5f5;
   color: #333;
 }
@@ -139,8 +139,9 @@ body {
 }
 
 .todo-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px) scale(1.01); /* Lift + slight zoom */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Deeper, softer shadow */
+  border-left-color: #2980b9; /* Slightly darker/bolder blue */
 }
 
 .todo-item.priority-low {
@@ -153,6 +154,10 @@ body {
 
 .todo-item.priority-high {
   border-left-color: #e74c3c;
+}
+
+.button{
+  font-family:"Bebas Neue", sans-serif
 }
 
 .todo-item.completed {
@@ -280,7 +285,6 @@ body {
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
-  font-family: inherit;
 }
 
 .modal-content input:focus,
